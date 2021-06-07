@@ -14,3 +14,13 @@ The table below shows the models I used and the scores. The Neural Network model
 # Summary
 
 If I had more time to work with the parameters, I believe the accuracy rate of the Neural Network model could be improved. If this were a "real" scenario, I would not be happy with 85.6% accuracy. I think the paramaters could be fine-tuned some more to increase the percent value, either by increasing the number of epochs (currently set to 100), or by increasing the number of nodes in a layer. Currently I have 2 layers with 100 nodes in each.
+
+|                         | file_name                            |
+|-------------------------|--------------------------------------|
+| **Logistic**<br/>**Regression** | terra_vaughn_logistic_regression.sav |
+| **KNN**                     | terra_vaughn_knn.sav                 |
+| **Neural Network**          | terra_vaughn_neural_network.pkl*     |
+| **SVM**                     | terra_vaughn_svm.sav                 |
+|
+
+**First time using 'pickle' to save a file.*
